@@ -6,7 +6,7 @@ public:
         {
             mp[ch-'a']++;
         }
-        sort(begin(mp),end(mp),greater<int>());
+        sort(mp.begin(),mp.end(),greater<int>());
         int result = 0;
         for(int i =0; i<26; i++)
         {
