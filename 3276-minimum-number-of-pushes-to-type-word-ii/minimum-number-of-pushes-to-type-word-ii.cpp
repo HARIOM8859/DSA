@@ -10,9 +10,7 @@ public:
         int result = 0;
         for(int i =0; i<26; i++)
         {
-            int freq = mp[i];
-            int press = (i/8+1);
-            result += (freq*press);
+            result += mp[i]*((i/8)+1);
         }
         return result;
     }
