@@ -10,6 +10,7 @@ public:
         int result = 0;
         for(int i =0; i<26; i++)
         {
+            if(mp[i]==0) break;
             result += mp[i]*((i/8)+1);
         }
         return result;
