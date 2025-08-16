@@ -16,7 +16,7 @@ public:
             mp2[num]--;
             int n1 = i+1;
             int n2 = n-i-1;
-            if(mp1[num] > n1/2 && mp2[num] > n2/2)
+            if(mp1[num]*2 > n1 && mp2[num]*2 > n2)
             {
                 return i;
             }
